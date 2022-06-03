@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.5)  30 MAY 2022 01:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.5)  3 JUN 2022 10:42
 entering extended mode
 **./report.tex
 (report.tex
@@ -1553,6 +1553,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--9
  []
 
 
+Overfull \hbox (54.15907pt too wide) in paragraph at lines 2--9
+\T2A/cmr/m/n/12 —сылка на гит-хаб с про-ек-том - [][]$https : / / github . com 
+/ i1oveMyse1f / sandpile-[]extremes-[]classic$[][]. 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2--9
 
  []
@@ -1969,8 +1975,8 @@ Package logreq Info: Writing requests to 'report.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  33588 strings out of 479618
- 610525 string characters out of 2865027
- 1134894 words of memory out of 3000000
+ 610960 string characters out of 2865027
+ 1134895 words of memory out of 3000000
  50116 multiletter control sequences out of 15000+200000
  422146 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1997,7 +2003,7 @@ apoz/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
 amsfonts/cm/cmr12.pfb><C:/Users/sapoz/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmr7.pfb><C:/Users/sapoz/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (25 pages, 2448736 bytes).
+Output written on report.pdf (25 pages, 2448800 bytes).
 PDF statistics:
  994 PDF objects out of 1000 (max. 8388607)
  94 named destinations out of 1000 (max. 500000)
