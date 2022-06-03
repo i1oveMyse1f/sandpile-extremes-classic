@@ -1,0 +1,1208 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyvt/global//global/global}
+  \entry{Alhaija2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=AHA}{%
+         family={Alhaija},
+         familyi={A\bibinitperiod},
+         given={Hassan\bibnamedelima Abu},
+         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MSK}{%
+         family={Mustikovela},
+         familyi={M\bibinitperiod},
+         given={Siva\bibnamedelima Karthik},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=MLM}{%
+         family={Mescheder},
+         familyi={M\bibinitperiod},
+         given={Lars\bibnamedelima M.},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Geiger},
+         familyi={G\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Rother},
+         familyi={R\bibinitperiod},
+         given={Carsten},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AHA+1}
+    \strng{fullhash}{AHAMSKMLMGARC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1007/s11263-018-1070-x
+    \endverb
+    \field{pages}{961\bibrangedash 972}
+    \field{title}{Augmented Reality Meets Computer Vision: Efficient Data
+  Generation for Urban Driving Scenes}
+    \field{volume}{126}
+    \field{journaltitle}{International Journal of Computer Vision}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Aschwanden2021SelforganizedCI}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AMJ}{%
+         family={Aschwanden},
+         familyi={A\bibinitperiod},
+         given={Markus\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Güdel},
+         familyi={G\bibinitperiod},
+         given={Manuel},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Astronomical Society}%
+    }
+    \strng{namehash}{AMJGM1}
+    \strng{fullhash}{AMJGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.3847/1538-4357/abdec7
+    \endverb
+    \field{number}{1}
+    \field{pages}{41}
+    \field{title}{Self-organized Criticality in Stellar Flares}
+    \field{volume}{910}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2021}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Bak1996HowNW}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BP}{%
+         family={Bak},
+         familyi={B\bibinitperiod},
+         given={Per},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bhattacharya},
+         familyi={B\bibinitperiod},
+         given={Shobo},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BPBS1}
+    \strng{fullhash}{BPBS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1119/1.18610
+    \endverb
+    \field{pages}{71\bibrangedash 72}
+    \field{title}{How Nature Works: The Science of Self‐Organized
+  Criticality}
+    \field{volume}{50}
+    \field{journaltitle}{Physics Today}
+    \field{year}{1996}
+  \endentry
+
+  \entry{btw}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BP}{%
+         family={Bak},
+         familyi={B\bibinitperiod},
+         given={Per},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Chao},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Wiesenfeld},
+         familyi={W\bibinitperiod},
+         given={Kurt},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BPTCWK1}
+    \strng{fullhash}{BPTCWK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.59.381
+    \endverb
+    \field{pages}{381\bibrangedash 384}
+    \field{title}{Self-organized criticality: An explanation of 1/f noise.
+  Phys. Rev. Lett. 59, 381-384}
+    \field{volume}{59}
+    \field{journaltitle}{Physical Review Letters}
+    \field{month}{08}
+    \field{year}{1987}
+  \endentry
+
+  \entry{BenHur1996}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BHA}{%
+         family={Ben-Hur},
+         familyi={B\bibinithyphendelim H\bibinitperiod},
+         given={Asa},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BO}{%
+         family={Biham},
+         familyi={B\bibinitperiod},
+         given={Ofer},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{BHABO1}
+    \strng{fullhash}{BHABO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1103/PhysRevE.53.R1317
+    \endverb
+    \field{issue}{2}
+    \field{pages}{R1317\bibrangedash R1320}
+    \field{title}{Universality in sandpile models}
+    \field{volume}{53}
+    \field{journaltitle}{Phys. Rev. E}
+    \field{year}{1996}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{bunde}{book}{}
+    \name{author}{3}{}{%
+      {{hash=BA}{%
+         family={Bunde},
+         familyi={B\bibinitperiod},
+         given={Armin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KJP}{%
+         family={Kropp},
+         familyi={K\bibinitperiod},
+         given={J{\"u}rgen\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=SHJ}{%
+         family={Schellnhuber},
+         familyi={S\bibinitperiod},
+         given={Hans\bibnamedelima Joachim},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BAKJPSHJ1}
+    \strng{fullhash}{BAKJPSHJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1007/978-3-642-56257-0
+    \endverb
+    \field{title}{The Science of Disasters, Climate Disruptions, Heart Attacks,
+  and Market Crashes}
+    \field{month}{01}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Burridge1967ModelAT}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BR}{%
+         family={Burridge},
+         familyi={B\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KL}{%
+         family={Knopoff},
+         familyi={K\bibinitperiod},
+         given={Leon},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BRKL1}
+    \strng{fullhash}{BRKL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1785/BSSA0570030341
+    \endverb
+    \field{pages}{341\bibrangedash 371}
+    \field{title}{Model and theoretical seismicity}
+    \field{volume}{57}
+    \field{journaltitle}{Bulletin of the Seismological Society of America}
+    \field{year}{1967}
+  \endentry
+
+  \entry{Cordts2016}{article}{}
+    \name{author}{9}{}{%
+      {{hash=CM}{%
+         family={Cordts},
+         familyi={C\bibinitperiod},
+         given={Marius},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={Omran},
+         familyi={O\bibinitperiod},
+         given={Mohamed},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Ramos},
+         familyi={R\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RT}{%
+         family={Rehfeld},
+         familyi={R\bibinitperiod},
+         given={Timo},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=EM}{%
+         family={Enzweiler},
+         familyi={E\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Benenson},
+         familyi={B\bibinitperiod},
+         given={Rodrigo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FU}{%
+         family={Franke},
+         familyi={F\bibinitperiod},
+         given={Uwe},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Roth},
+         familyi={R\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Schiele},
+         familyi={S\bibinitperiod},
+         given={Bernt},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CM+1}
+    \strng{fullhash}{CMOMRSRTEMBRFURSSB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.48550/arXiv.1604.01685
+    \endverb
+    \field{pages}{3213\bibrangedash 3223}
+    \field{title}{The Cityscapes Dataset for Semantic Urban Scene \\\
+  Understanding}
+    \field{journaltitle}{2016 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}
+    \field{year}{2016}
+  \endentry
+
+  \entry{deluca}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DA}{%
+         family={Deluca},
+         familyi={D\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Moloney},
+         familyi={M\bibinitperiod},
+         given={Nicholas},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Corral},
+         familyi={C\bibinitperiod},
+         given={Alvaro},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DAMNCA1}
+    \strng{fullhash}{DAMNCA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1103/PhysRevE.91.052808
+    \endverb
+    \field{title}{Data-driven prediction of thresholded time series of rainfall
+  and self-organized criticality models}
+    \field{volume}{91}
+    \field{journaltitle}{Physical Review E}
+    \field{month}{05}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Dennis1985SolarHX}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DBR}{%
+         family={Dennis},
+         familyi={D\bibinitperiod},
+         given={Brian\bibnamedelima R.},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DBR1}
+    \strng{fullhash}{DBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1007/978-94-009-4588-3_23
+    \endverb
+    \field{pages}{465\bibrangedash 490}
+    \field{title}{Solar hard X-ray bursts}
+    \field{volume}{100}
+    \field{journaltitle}{Solar Physics}
+    \field{year}{1985}
+  \endentry
+
+  \entry{Dhar2006}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DD}{%
+         family={Dhar},
+         familyi={D\bibinitperiod},
+         given={Deepak},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DD1}
+    \strng{fullhash}{DD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1016/j.physa.2006.04.004
+    \endverb
+    \field{pages}{29\bibrangedash 70}
+    \field{title}{Theoretical studies of self-organized criticality}
+    \field{volume}{369}
+    \field{journaltitle}{Physica A}
+    \field{month}{09}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Hallerberg2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GA}{%
+         family={Garber},
+         familyi={G\bibinitperiod},
+         given={Anja},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hallerberg},
+         familyi={H\bibinitperiod},
+         given={Sarah},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kantz},
+         familyi={K\bibinitperiod},
+         given={Holger},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GAHSKH1}
+    \strng{fullhash}{GAHSKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1103/PhysRevE.80.026124
+    \endverb
+    \field{pages}{026124}
+    \field{title}{Predicting extreme avalanches in self-organized critical
+  sandpiles}
+    \field{volume}{80}
+    \field{journaltitle}{Physical review. E, Statistical, nonlinear, and soft
+  matter physics}
+    \field{month}{08}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Garber2009}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GA}{%
+         family={Garber},
+         familyi={G\bibinitperiod},
+         given={Anja},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kantz},
+         familyi={K\bibinitperiod},
+         given={Holger},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GAKH1}
+    \strng{fullhash}{GAKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1140/epjb/e2008-00474-4
+    \endverb
+    \field{number}{3}
+    \field{pages}{437\bibrangedash 443}
+    \field{title}{Finite-size effects on the statistics of extreme events in
+  the BTW model}
+    \field{volume}{67}
+    \field{journaltitle}{The European Physical Journal B}
+    \field{year}{2009}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Geller1997}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GRJ}{%
+         family={Geller},
+         familyi={G\bibinitperiod},
+         given={Robert\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=JDD}{%
+         family={Jackson},
+         familyi={J\bibinitperiod},
+         given={David\bibnamedelima D.},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=KYY}{%
+         family={Kagan},
+         familyi={K\bibinitperiod},
+         given={Yan\bibnamedelima Y.},
+         giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Mulargia},
+         familyi={M\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GRJ+1}
+    \strng{fullhash}{GRJJDDKYYMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1126/SCIENCE.275.5306.1616
+    \endverb
+    \field{pages}{1616 \bibrangedash  1616}
+    \field{title}{Earthquakes Cannot Be Predicted}
+    \field{volume}{275}
+    \field{journaltitle}{Science}
+    \field{year}{1997}
+  \endentry
+
+  \entry{Gromov2020}{inbook}{}
+    \name{author}{2}{}{%
+      {{hash=GV}{%
+         family={Gromov},
+         familyi={G\bibinitperiod},
+         given={Vasilii},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Migrina},
+         familyi={M\bibinitperiod},
+         given={Anastasia},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GVMA1}
+    \strng{fullhash}{GVMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.37247/PACS.1.2020.4
+    \endverb
+    \field{title}{A Language as a Self-organized Critical System}
+    \field{month}{01}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Held1990}{article}{}
+    \name{author}{6}{}{%
+      {{hash=HGA}{%
+         family={Held},
+         familyi={H\bibinitperiod},
+         given={G.\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SDH}{%
+         family={Solina},
+         familyi={S\bibinitperiod},
+         given={David\bibnamedelima Henry},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=K}{%
+         family={Keane},
+         familyi={K\bibinitperiod},
+      }}%
+      {{hash=H}{%
+         family={Haag},
+         familyi={H\bibinitperiod},
+      }}%
+      {{hash=H}{%
+         family={Horn},
+         familyi={H\bibinitperiod},
+      }}%
+      {{hash=G}{%
+         family={Grinstein},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{HGA+1}
+    \strng{fullhash}{HGASDHKHHG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.65.1120
+    \endverb
+    \field{issue}{9}
+    \field{pages}{1120\bibrangedash 1123}
+    \field{title}{Experimental study of critical-mass fluctuations in an
+  evolving sandpile}
+    \field{volume}{65}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1990}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Jaeger1989}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JHM}{%
+         family={Jaeger},
+         familyi={J\bibinitperiod},
+         given={Heinrich\bibnamedelima M.},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={{Chu-heng}},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=NSR}{%
+         family={Nagel},
+         familyi={N\bibinitperiod},
+         given={Sidney\bibnamedelima R.},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{JHMLCNSR1}
+    \strng{fullhash}{JHMLCNSR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.62.40
+    \endverb
+    \field{issue}{1}
+    \field{pages}{40\bibrangedash 43}
+    \field{title}{Relaxation at the Angle of Repose}
+    \field{volume}{62}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1989}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Kalinin2021}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KN}{%
+         family={Kalinin},
+         familyi={K\bibinitperiod},
+         given={Nikita},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KN1}
+    \strng{fullhash}{KN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{On the origin of the hierarchy of the sciences}
+    \verb{url}
+    \verb https://arxiv.org/abs/2201.12276
+    \endverb
+    \field{journaltitle}{ArXiV}
+    \field{month}{12}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Kantz2010}{inbook}{}
+    \name{author}{1}{}{%
+      {{hash=KH}{%
+         family={Kantz},
+         familyi={K\bibinitperiod},
+         given={Holger},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \name{editor}{4}{}{%
+      {{hash=EE}{%
+         family={Estrada},
+         familyi={E\bibinitperiod},
+         given={Ernesto},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Fox},
+         familyi={F\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HDJ}{%
+         family={Higham},
+         familyi={H\bibinitperiod},
+         given={Desmond\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=OGL}{%
+         family={Oppo},
+         familyi={O\bibinitperiod},
+         given={Gian-Luca},
+         giveni={G\bibinithyphendelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer London}%
+    }
+    \strng{namehash}{KH1}
+    \strng{fullhash}{KH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{booktitle}{Network Science: Complexity in Nature and Technology}
+    \verb{doi}
+    \verb 10.1007/978-1-84996-396-1_10
+    \endverb
+    \field{pages}{205\bibrangedash 216}
+    \field{title}{Dynamics and Statistics of Extreme Events}
+    \list{location}{1}{%
+      {London}%
+    }
+    \field{year}{2010}
+  \endentry
+
+  \entry{Khodaverdian2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KA}{%
+         family={Khodaverdian},
+         familyi={K\bibinitperiod},
+         given={Alireza},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zafarani},
+         familyi={Z\bibinitperiod},
+         given={Hamid},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Rahimin},
+         familyi={R\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KAZHRM1}
+    \strng{fullhash}{KAZHRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1785/0120150178
+    \endverb
+    \field{title}{Seismicity Parameters and Spatially-Smoothed Seismicity Model
+  for Iran}
+    \field{volume}{106}
+    \field{journaltitle}{Bulletin of the Seismological Society of America}
+    \field{month}{03}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Levy1997NEWEF}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LM}{%
+         family={Levy},
+         familyi={L\bibinitperiod},
+         given={Moshe},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Solomon},
+         familyi={S\bibinitperiod},
+         given={Sorin},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LMSS1}
+    \strng{fullhash}{LMSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1016/S0378-4371(97)00217-3
+    \endverb
+    \field{pages}{90\bibrangedash 94}
+    \field{title}{New evidence for the power-law distribution of wealth}
+    \field{volume}{242}
+    \field{journaltitle}{Physica A-statistical Mechanics and Its Applications}
+    \field{year}{1997}
+  \endentry
+
+  \entry{Lewis1985}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LPAW}{%
+         family={Lewis},
+         familyi={L\bibinitperiod},
+         given={Peter A.\bibnamedelima W.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LPAW1}
+    \strng{fullhash}{LPAW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1111/j.1752-1688.1985.tb05378.x
+    \endverb
+    \field{pages}{635\bibrangedash 644}
+    \field{title}{Some Simple Models for Continuous Variate Time Series}
+    \field{volume}{21}
+    \field{journaltitle}{Journal of The American Water Resources Association}
+    \field{year}{1985}
+  \endentry
+
+  \entry{Liu1991}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LC}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={{Chu-heng}},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=JHM}{%
+         family={Jaeger},
+         familyi={J\bibinitperiod},
+         given={H.\bibnamedelima M.},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=NSR}{%
+         family={Nagel},
+         familyi={N\bibinitperiod},
+         given={Sidney\bibnamedelima R.},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{LCJHMNSR1}
+    \strng{fullhash}{LCJHMNSR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1103/PhysRevA.43.7091
+    \endverb
+    \field{issue}{12}
+    \field{pages}{7091\bibrangedash 7092}
+    \field{title}{Finite-size effects in a sandpile}
+    \field{volume}{43}
+    \field{journaltitle}{Phys. Rev. A}
+    \field{year}{1991}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{manna}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MS}{%
+         family={Manna},
+         familyi={M\bibinitperiod},
+         given={Subhrangshu},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MS1}
+    \strng{fullhash}{MS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1088/0305-4470/24/7/009
+    \endverb
+    \field{title}{Two-state model of self-organized criticality}
+    \field{volume}{24}
+    \field{journaltitle}{Journal of Physics A}
+    \field{month}{04}
+    \field{year}{1991}
+  \endentry
+
+  \entry{Milovanov2021}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MAV}{%
+         family={Milovanov},
+         familyi={M\bibinitperiod},
+         given={Alexander\bibnamedelima V.},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=RJJ}{%
+         family={Rasmussen},
+         familyi={R\bibinitperiod},
+         given={Jens\bibnamedelima Juul},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Groslambert},
+         familyi={G\bibinitperiod},
+         given={Bertrand},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MAVRJJGB1}
+    \strng{fullhash}{MAVRJJGB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb doi.org/10.1016/j.chaos.2021.110665
+    \endverb
+    \field{pages}{110665}
+    \field{title}{Black swans, extreme risks, and the e-pile model of
+  self-organized criticality}
+    \field{volume}{144}
+    \field{journaltitle}{Chaos, Solitons \& Fractals}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Molchan1997}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MGM}{%
+         family={Molchan},
+         familyi={M\bibinitperiod},
+         given={George\bibnamedelima M.},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MGM1}
+    \strng{fullhash}{MGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1007/BF00945169
+    \endverb
+    \field{number}{1}
+    \field{pages}{233\bibrangedash 247}
+    \field{title}{Earthquake prediction as a decision-making problem}
+    \field{volume}{149}
+    \field{journaltitle}{Pure and applied geophysics}
+    \field{year}{1997}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Murphy1996}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MAH}{%
+         family={Murphy},
+         familyi={M\bibinitperiod},
+         given={Allan\bibnamedelima H.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MAH1}
+    \strng{fullhash}{MAH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1175/1520-0434(1996)011<0003:TFAASE>2.0.CO;2
+    \endverb
+    \field{pages}{3\bibrangedash 20}
+    \field{title}{The Finley Affair: A Signal Event in the History of Forecast
+  Verification}
+    \field{volume}{11}
+    \field{journaltitle}{Weather and Forecasting}
+    \field{year}{1996}
+  \endentry
+
+  \entry{podgornik}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PR}{%
+         family={Podgornik},
+         familyi={P\bibinitperiod},
+         given={Rudolf},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PR1}
+    \strng{fullhash}{PR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1007/s10955-007-9389-7
+    \endverb
+    \field{pages}{189\bibrangedash 190}
+    \field{title}{S. Albeverio, V. Jentsch, H. Kantz (eds.): Extreme events in
+  nature and society. (The Frontiers Collection)}
+    \field{volume}{129}
+    \field{journaltitle}{Journal of Statistical Physics}
+    \field{month}{10}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Shapoval2006}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SA}{%
+         family={Shapoval},
+         familyi={S\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Shnirman},
+         familyi={S\bibinitperiod},
+         given={Mikhail},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SASM1}
+    \strng{fullhash}{SASM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1142/S0129183106010212
+    \endverb
+    \field{pages}{1777\bibrangedash 1790}
+    \field{title}{How Size Of Target Avalanches Influences Prediction
+  Efficiency}
+    \field{volume}{17}
+    \field{journaltitle}{International Journal of Modern Physics C}
+    \field{year}{2006}
+  \endentry
+
+  \entry{TURCOTTE1999275}{article}{}
+    \name{author}{1}{}{%
+      {{hash=TDL}{%
+         family={Turcotte},
+         familyi={T\bibinitperiod},
+         given={Donald\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TDL1}
+    \strng{fullhash}{TDL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb doi.org/10.1016/S0031-9201(98)00167-8
+    \endverb
+    \field{number}{3}
+    \field{pages}{275\bibrangedash 293}
+    \field{title}{Seismicity and self-organized criticality}
+    \field{volume}{111}
+    \field{journaltitle}{Physics of the Earth and Planetary Interiors}
+    \field{year}{1999}
+  \endentry
+
+  \entry{Vespignani2000AbsorbingstatePT}{article}{}
+    \name{author}{4}{}{%
+      {{hash=VA}{%
+         family={Vespignani},
+         familyi={V\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dickman},
+         familyi={D\bibinitperiod},
+         given={Ronald},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MMA}{%
+         family={Mu{\~n}oz},
+         familyi={M\bibinitperiod},
+         given={Miguel\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ZS}{%
+         family={Zapperi},
+         familyi={Z\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VA+1}
+    \strng{fullhash}{VADRMMAZS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \verb{doi}
+    \verb 10.1103/physreve.62.4564
+    \endverb
+    \field{pages}{4564\bibrangedash 82}
+    \field{title}{Absorbing-state phase transitions in fixed-energy sandpiles}
+    \field{volume}{62 4 Pt A}
+    \field{journaltitle}{Physical review. E, Statistical physics, plasmas,
+  fluids, and related interdisciplinary topics}
+    \field{year}{2000}
+  \endentry
+
+  \entry{Wyss1997}{article}{}
+    \name{author}{7}{}{%
+      {{hash=WM}{%
+         family={Wyss},
+         familyi={W\bibinitperiod},
+         given={Max},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Aceves},
+         familyi={A\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Geller},
+         familyi={G\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=JD}{%
+         family={Jackson},
+         familyi={J\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Kagan},
+         familyi={K\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Mulargia},
+         familyi={M\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WM+1}
+    \strng{fullhash}{WMARPSGRJDKYMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1126/science.278.5337.487
+    \endverb
+    \field{pages}{487\bibrangedash 490}
+    \field{title}{Cannot Earthquakes Be Predicted?}
+    \field{volume}{278}
+    \field{journaltitle}{Science}
+    \field{month}{10}
+    \field{year}{1997}
+  \endentry
+\enddatalist
+\endinput
