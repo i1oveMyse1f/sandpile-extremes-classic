@@ -1,4 +1,15 @@
 *.ipynb_checkpoints*
 *.vscode*
-exec_files/
-data/
+bin/*
+data/*
+report/ru/*.log
+report/ru/*.bbl
+report/ru/*.xml
+report/ru/*.snm
+report/ru/*.nov
+report/ru/*.toc
+report/ru/*.out
+report/ru/*.gz
+report/ru/*.blg
+report/ru/*.aux
+report/ru/*.nav

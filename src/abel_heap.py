@@ -10,7 +10,7 @@ import subprocess
 def calculate_conditional_probability(L, ETA, A, model, K_BINS, use_cache):
     inp = os.path.join("data", f"train_{L}_{model}.out")
     out = os.path.join("data", "conditional_probability", f"train_{L}_{model}_{ETA}_{A}_{K_BINS}.out")
-    calc = os.path.join(".", "exec_files", "conditional_probability_L_Eta_A_Kbins")
+    calc = os.path.join(".", "bin", "conditional_probability_L_Eta_A_Kbins")
 
     if not use_cache or not os.path.exists(out):
         subprocess.run(
@@ -38,7 +38,7 @@ def calculate_roc_curve(L, ETA, A, model, K_BINS, use_cache):
     inp = os.path.join("data", f"test_{L}_{model}.out")
     inp_cond_prob = os.path.join("data", "conditional_probability", f"train_{L}_{model}_{ETA}_{A}_{K_BINS}.out")
     out = os.path.join("data", "AUC", f"test_{L}_{ETA}_{A}_{K_BINS}.out")
-    calc = os.path.join(".", "exec_files", "roc_curve_L_Eta_A")
+    calc = os.path.join(".", "bin", "roc_curve_L_Eta_A")
 
     if not use_cache or not os.path.exists(out):
         subprocess.run(
@@ -65,7 +65,7 @@ def calculate_roc_curve_parallel(args, K_BINS, use_cache, njobs):
 
 def calculate_events(L, ETAs, model):
     inp = os.path.join("data", f"test_{L}_{model}.out")
-    calc = os.path.join(".", "exec_files", "event_rate")
+    calc = os.path.join(".", "bin", "event_rate")
     stdout = subprocess.run([calc, inp],
                             check=True,
                             text=True,

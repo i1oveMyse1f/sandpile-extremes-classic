@@ -8,7 +8,7 @@ The state-of-the-art in the theory of self-organized criticality exposes that a 
 
 ## Results
 
-All results provided in [results](./results/) directory.
+All results provided in [results](./results/) directory and [russian report](./report/ru/report.pdf).
 
 ## How to run?
 
@@ -21,7 +21,7 @@ python ./init.py
 To generate data, run the following script in the shell:
 
 ```bash
-./exec_files/generation L model
+./bin/generation L model
 ```
 
 where `L` is a lattice size., for example, 64, and `model` is a one of `rand` and `determ` - a type of Sandpile model (`rand` - Manna Sandpile, `determ` - BTW Sandpile)
