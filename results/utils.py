@@ -30,7 +30,7 @@ def plot_global_auc_curves(auc_curve, gamma, ax=None, legend=True):
         if legend:
             ax.legend(bbox_to_anchor=(1.02,1.02), loc="upper left", markerscale=2)
 
-def calculate_roc_curve_gamma(gamma, PERCENTS_ETA, LS, TS, model, njobs=-1, grid=True):
+def calculate_roc_curve_gamma(gamma, PERCENTS_ETA, LS, TS, model, njobs=-1, grid=True, use_cache=True):
     if not grid:
         assert len(LS) == len(TS)
         
@@ -66,8 +66,8 @@ def calculate_roc_curve_gamma(gamma, PERCENTS_ETA, LS, TS, model, njobs=-1, grid
                 args.append((L, ETA, A, model))
     
     # run subprograms
-    abel_heap.calculate_conditional_probability_parallel(args, K_BINS=200, use_cache=True, njobs=njobs)
-    auc_curve = abel_heap.calculate_roc_curve_parallel(args, K_BINS=200, use_cache=True, njobs=njobs)
+    abel_heap.calculate_conditional_probability_parallel(args, K_BINS=200, use_cache=use_cache, njobs=njobs)
+    auc_curve = abel_heap.calculate_roc_curve_parallel(args, K_BINS=200, use_cache=use_cache, njobs=njobs)
 
     # calculate some useful columns
     auc_curve["eps"] = auc_curve["results"].apply(lambda x: np.min(x[0] + (1 - x[1]))) # fpr + (1 - tpr)
@@ -92,8 +92,8 @@ def plot_auc_curve(auc_curve, ax=None):
         ax.set_ylim(0, 1)
         plt.xticks([0, 0.2, 0.4, 0.6, 0.8, 1], [0, 0.2, 0.4, 0.6, 0.8, 1])
         plt.yticks([0, 0.2, 0.4, 0.6, 0.8, 1], [0, 0.2, 0.4, 0.6, 0.8, 1])
-        ax.set_xlabel("False Positive Rate")
-        ax.set_ylabel("True Positive Rate")
+        ax.set_xlabel(r"False Positive Rate, $\tau$")
+        ax.set_ylabel(r"True Positive Rate, $1 - \nu$")
         #plt.legend(markerscale=2)
     else:
         #plt.title(r"ROC curves, $\gamma=$" + str(gamma))
@@ -101,8 +101,8 @@ def plot_auc_curve(auc_curve, ax=None):
         plt.ylim(0, 1)
         plt.xticks([0, 0.2, 0.4, 0.6, 0.8, 1], [0, 0.2, 0.4, 0.6, 0.8, 1])
         plt.yticks([0, 0.2, 0.4, 0.6, 0.8, 1], [0, 0.2, 0.4, 0.6, 0.8, 1])
-        plt.xlabel("False Positive Rate")
-        plt.ylabel("True Positive Rate")
+        plt.xlabel(r"False Positive Rate, $\tau$")
+        plt.ylabel(r"True Positive Rate, $1 - \nu$")
         #plt.legend(markerscale=2)
         
 def plot_local_global(gamma, t_scaling, LS, PERCENTS_ETA, TS_local, TS_global, model):
@@ -204,7 +204,7 @@ def calculate_roc_curve_gamma_min_event_rate(gamma, PERCENTS_ETA, LS, TS, model,
     add_p = []
     add_gamma = []
     
-    event_rate = calculate_event_rate(gamma, PERCENTS_ETA, LS, "determ")
+    event_rate = calculate_event_rate(gamma, PERCENTS_ETA, LS, model)
     
     if grid:
         for L in LS:
@@ -244,3 +244,9 @@ def calculate_roc_curve_gamma_min_event_rate(gamma, PERCENTS_ETA, LS, TS, model,
     auc_curve = pd.merge(auc_curve, event_rate, on=["L", "p", "model"], how="left")
     
     return auc_curve
+
+def plot_annotation(point1, point2, text):
+    x_values = [point1[0], point2[0]]
+    y_values = [point1[1], point2[1]]
+    plt.plot(x_values, y_values, color="black")
+    plt.text(point2[0]+0.02, point2[1]-0.02, text)
