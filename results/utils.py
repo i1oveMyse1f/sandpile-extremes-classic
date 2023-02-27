@@ -10,7 +10,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import pandas as pd
-#from utils import *
+from collections import defaultdict
+from shapely.geometry import Polygon
+from IPython.display import display
+from copy import deepcopy
 
 def plot_global_auc_curves(auc_curve, gamma, ax=None, legend=True):
     sns.lineplot(data=auc_curve, x="T", y="eps", hue="L", style="p", markers=True, palette="tab10", markersize=10, ax=ax)
@@ -158,10 +161,6 @@ def calculate_event_rate(gamma, PERCENTS_ETA, LS, model):
         event_rates["p"].extend(PERCENTS_ETA)
     
     return pd.DataFrame(event_rates)
-
-from shapely.geometry import Polygon
-from IPython.display import display
-from copy import deepcopy
 
 def calculate_IoU_fixed_gamma(data):
     IoU = {}
